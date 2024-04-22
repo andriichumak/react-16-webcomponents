@@ -22,11 +22,11 @@ module.exports = {
         'https://ach.internal.cloud.gooddata.com/components/workspace-id.js': 'import',
     },
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './docs'),
         filename: 'bundle.js',
     },
     devServer: {
-        static: path.resolve(__dirname, './dist'),
+        static: path.resolve(__dirname, './docs'),
         hot: true,
     },
     plugins: [
