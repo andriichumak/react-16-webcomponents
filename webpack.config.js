@@ -18,9 +18,6 @@ module.exports = {
     resolve: {
         extensions: ['*', '.js', '.jsx'],
     },
-    externals: {
-        'https://ach.internal.cloud.gooddata.com/components/workspace-id.js': 'import',
-    },
     output: {
         path: path.resolve(__dirname, './docs'),
         filename: 'bundle.js',
